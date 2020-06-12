@@ -60,8 +60,8 @@ module.exports.run = async (bot, message, args) => {
             console.log(`Skipping bot with name ${member.user.username}`)
             continue
         }
-        /*
-                if (member.roles.some(r => ["Community Figure", "Developer", "Content Creator"].includes(r.name))) {
+/*        
+              if (member.roles.cache.some(r => ["randomrole", "ranfdomrole",].includes(r.name))) {
                     console.log(`Skipping role with name ${member.user.username}`);
                     continue
                 } */
